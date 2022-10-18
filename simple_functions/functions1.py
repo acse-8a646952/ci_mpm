@@ -9,8 +9,8 @@ def my_sum(iterable):
     return tot
 
 
-
 def factorial(n):
     return n * factorial(n-1) if n-1 > 0 else 1
+
 
 print(factorial(4))
